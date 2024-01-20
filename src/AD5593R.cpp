@@ -1,6 +1,6 @@
 #include "AD5593R.h"
 #include <Arduino.h>
-
+#include <Wire.h>
 
 #define _ADAC_NULL           B00000000
 #define _ADAC_ADC_SEQUENCE   B00000010 // ADC sequence register - Selects ADCs for conversion
